@@ -1,14 +1,12 @@
 import React from 'react';
-import {ArticlePage} from "../ArticlePage/ArticlePage";
+import {ArticlesMainPageList} from "./ArticlesMainPageList";
 
 export const ArticlesMainPage = () => {
+
     return (
-        <div>
-            <ArticlePage />
-            <ArticlePage />
-            <ArticlePage />
-            <ArticlePage />
-            <ArticlePage />
+        <div className='ArticlesMainPage text-center mt-3'>
+            <h1>Список статей:</h1>
+            <ArticlesMainPageList />
         </div>
     )
 

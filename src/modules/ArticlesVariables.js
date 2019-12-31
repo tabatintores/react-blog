@@ -1,0 +1,1 @@
+export const articlesStorage = JSON.parse(localStorage.getItem('articlesStorage')) || localStorage.setItem('articlesStorage', JSON.stringify([]));
