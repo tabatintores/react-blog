@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f3ba270-7c14-44fb-8657-9c1418b06154" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ArticlesNavbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ArticlePage/ArticlePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlesMainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Sass File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,9 +45,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/ArticlePage" />
+      <recent name="$PROJECT_DIR$/src/pages/ArticlesMainPage" />
+      <recent name="$PROJECT_DIR$/src/pages" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -95,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577777456078</updated>
       <workItem from="1577777457763" duration="979000" />
-      <workItem from="1577780994136" duration="1144000" />
+      <workItem from="1577780994136" duration="5187000" />
     </task>
     <servers />
   </component>
@@ -107,10 +105,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1577782542529" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577777871045">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577785118373">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577777871045" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577785118373" />
     <state x="306" y="229" key="EditFileWatcherDialog" timestamp="1577778089837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -131,5 +129,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1396" height="172" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577782752406" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1577788738566">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577788738566" />
   </component>
 </project>
