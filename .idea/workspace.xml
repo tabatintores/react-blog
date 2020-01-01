@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3ba270-7c14-44fb-8657-9c1418b06154" name="Default Changelist" comment="Разметка приложения">
-      <change afterPath="$PROJECT_DIR$/src/modules/ArticlesMethods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ArticlesVariables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPageList.js" afterDir="false" />
+    <list default="true" id="9f3ba270-7c14-44fb-8657-9c1418b06154" name="Default Changelist" comment="Разработка приложения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPageList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,10 @@
       <workItem from="1577780994136" duration="6059000" />
       <workItem from="1577798661239" duration="469000" />
       <workItem from="1577801869509" duration="393000" />
-      <workItem from="1577803344899" duration="3387000" />
+      <workItem from="1577803344899" duration="3640000" />
+      <workItem from="1577866821465" duration="175000" />
+      <workItem from="1577869187522" duration="3534000" />
+      <workItem from="1577877221821" duration="893000" />
     </task>
     <task id="LOCAL-00001" summary="Разметка приложения">
       <created>1577789232526</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577789232526</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Создание архитектуры приложения">
+      <created>1577823994203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577823994203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +120,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Разметка приложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разметка приложения" />
+    <MESSAGE value="Создание архитектуры приложения" />
+    <MESSAGE value="Разработка приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Разработка приложения" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1577782542529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Deployment/0.0.1440.900@0.0.1440.900" timestamp="1577782542529" />
+    <state x="320" y="115" key="#Inspections" timestamp="1577871143206">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1577871143206" />
     <state x="457" y="204" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577823085070">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -128,37 +141,41 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577785118373" />
-    <state x="99" y="0" key="CommitChangelistDialog2" timestamp="1577805623226">
+    <state x="99" y="0" key="CommitChangelistDialog2" timestamp="1577877930341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="99" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577805623226" />
+    <state x="99" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577877930341" />
     <state x="306" y="229" key="EditFileWatcherDialog" timestamp="1577778089837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="306" y="229" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1577778089837" />
-    <state width="1396" height="172" key="GridCell.Tab.0.bottom" timestamp="1577822813208">
+    <state width="1396" height="172" key="GridCell.Tab.0.bottom" timestamp="1577879544737">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="172" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577822813208" />
-    <state width="1396" height="172" key="GridCell.Tab.0.center" timestamp="1577822813205">
+    <state width="1396" height="172" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577879544737" />
+    <state width="1396" height="172" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1577867078451" />
+    <state width="1396" height="172" key="GridCell.Tab.0.center" timestamp="1577879544735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="172" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577822813205" />
-    <state width="1396" height="172" key="GridCell.Tab.0.left" timestamp="1577822813205">
+    <state width="1396" height="172" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577879544735" />
+    <state width="1396" height="172" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1577867078450" />
+    <state width="1396" height="172" key="GridCell.Tab.0.left" timestamp="1577879544733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="172" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577822813205" />
-    <state width="1396" height="172" key="GridCell.Tab.0.right" timestamp="1577822813207">
+    <state width="1396" height="172" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577879544733" />
+    <state width="1396" height="172" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1577867078450" />
+    <state width="1396" height="172" key="GridCell.Tab.0.right" timestamp="1577879544736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1396" height="172" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577822813207" />
+    <state width="1396" height="172" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577879544736" />
+    <state width="1396" height="172" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1577867078451" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1577823086416">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577823086416" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1577789234954">
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1577823995851">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577789234954" />
+    <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577823995851" />
   </component>
 </project>
