@@ -4,8 +4,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {ArticlesMainPage} from "./pages/ArticlesMainPage/ArticlesMainPage";
 import {ArticlesNavbar} from "./components/ArticlesNavbar";
 
-const articlesStorage = JSON.parse(localStorage.getItem('articlesStorage')) || localStorage.setItem('articlesStorage', JSON.stringify([]));
-//Сохранение статьи
 const App = () => {
   return (
       <BrowserRouter>

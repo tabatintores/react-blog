@@ -13,8 +13,8 @@ import {
 import { BrowserRouter as Router } from 'react-router-dom';
 
 export const ArticlesNavbar = () => {
-    const [isOpen, setIsOpen] = useState(true);
-    const githubName = `tabatintores`;
+    const [isOpen, setIsOpen] = useState(false);
+    // const githubName = `tabatintores`;
 
     return (
         <Router>
