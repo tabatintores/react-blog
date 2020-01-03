@@ -1,6 +1,5 @@
 import React from 'react';
-import {articlesStorage} from "../../modules/ArticlesVariables";
-import {saveArticlesStorage} from "../../modules/ArticlesMethods";
+import {articles as articlesStorage} from "../../modules/ArticlesMethods";
 import {ArticlesMainPageListItem} from "./ArticlesMainPageListItem";
 
 export const ArticlesMainPageList = () => {
@@ -13,22 +12,26 @@ export const ArticlesMainPageList = () => {
         category: 'Звери',
         comments: []
     }];
-    saveArticlesStorage(article)
     return (
         articlesStorage.length ?
             articlesStorage.map(article => {
-                const {id,title,author,text,date,category,comments} = article;
+                const {id, title, author, text, date, category, comments} = article;
                 return (
-                    <ArticlesMainPageListItem
-                        key={id}
-                        title={title}
-                        author={author}
-                        text={text}
-                        date={date}
-                        category={category}
-                    />
+                    <React.Fragment key={id}>
+                        <ArticlesMainPageListItem
+                            id={id}
+                            key={id}
+                            title={title}
+                            author={author}
+                            text={text}
+                            date={date}
+                            category={category}
+                            comments={comments}
+                        />
+                        {articlesStorage[id+1] ? <hr className="my-5"/> : null}
+                    </React.Fragment>
                 )
             })
-         : <h2>Статей нет!</h2>
+            : <h2>Статей нет!</h2>
     )
 };
