@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.sass"],"names":[],"mappings":"AAAA,sDAEE,YAAA,CACF,eACE,iBAAA,CACA,OAAA,CACA,KAAA,CACA,cAAA,CACA,cAAA","file":"main.a6a5f554.chunk.css","sourcesContent":[".tox-notifications-container,\n.tox-statusbar__branding\n  display: none\n.deleteArticle\n  position: absolute\n  right: 0\n  top: 0\n  font-size: 22px\n  cursor: pointer"]}
