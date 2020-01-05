@@ -1,4 +1,4 @@
-const articlesGenerate = () => {
+export const articlesGenerate = () => {
     if (!localStorage.getItem('articlesStorage')) {
         localStorage.setItem('articlesStorage', JSON.stringify([]));
     }
@@ -10,16 +10,24 @@ export let articles = articlesGenerate();
 export const createArticle = (title, text, category) => {
     const article = {
         id: getArticleId(),
-        title: 'Тестовая статья',
+        title,
         author: 'user',
-        text: 'Здесь есть текст-рыба и много-много разных приколюххххххххххххххххххххххххххххххххххххххххххххххххххххх',
+        text,
         date: new Date().toLocaleDateString(),
-        category: 'Авто',
+        category,
         comments: []
     };
     articles.push(article);
     saveArticlesStorage(articles);
 };
+
+export const deleteArticle = id => {
+    const filteredArticles = articles.filter(item => {
+        return item.id !== id
+    });
+    saveArticlesStorage(filteredArticles);
+};
+
 export const saveArticlesStorage = articlesList => {
     localStorage.setItem('articlesStorage', JSON.stringify(articlesList));
 };

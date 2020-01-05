@@ -1,17 +1,14 @@
-import React from 'react';
-import {articles as articlesStorage} from "../../modules/ArticlesMethods";
+import React, {useState, useEffect} from 'react';
+import {articles, articlesGenerate, deleteArticle, saveArticlesStorage} from "../../modules/ArticlesMethods";
 import {ArticlesMainPageListItem} from "./ArticlesMainPageListItem";
 
 export const ArticlesMainPageList = () => {
-    const article = [{
-        id: 1,
-        title: 'Как приручить дракона',
-        author: 'Nemoiz',
-        text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.',
-        date: new Date().toLocaleDateString(),
-        category: 'Звери',
-        comments: []
-    }];
+    const [articlesStorage, setArticlesStorage] = useState(articles);
+    const deleteArticleHandler = id => {
+        deleteArticle(id)
+        setArticlesStorage(articlesGenerate());
+        console.log(`Удалена статья с id ${id}`)
+    };
     return (
         articlesStorage.length ?
             articlesStorage.map(article => {
@@ -27,6 +24,7 @@ export const ArticlesMainPageList = () => {
                             date={date}
                             category={category}
                             comments={comments}
+                            onDelete={deleteArticleHandler}
                         />
                         {articlesStorage[id+1] ? <hr className="my-5"/> : null}
                     </React.Fragment>

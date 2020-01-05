@@ -16,7 +16,7 @@ export const ArticlesNavbar = () => {
     // const githubName = `tabatintores`;
 
     return (
-        <MDBNavbar color="unique-color" dark expand="md">
+        <MDBNavbar color="blue-gradient" dark expand="md">
             <MDBNavbarBrand>
                 <strong className="white-text">BLOG</strong>
             </MDBNavbarBrand>
