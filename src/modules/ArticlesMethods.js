@@ -30,6 +30,7 @@ export const deleteArticle = id => {
 
 export const saveArticlesStorage = articlesList => {
     localStorage.setItem('articlesStorage', JSON.stringify(articlesList));
+    articles = articlesGenerate();
 };
 
 const getArticleId = () => articles.length > 0 ? articles[articles.length-1].id+1 : 0;
