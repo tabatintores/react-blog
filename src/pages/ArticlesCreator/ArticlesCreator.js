@@ -30,7 +30,7 @@ export const ArticlesCreator = () => {
                                 createArticle(title,text,category);
                                 history.push('/');
                             }}>
-                                <p className="h4 text-center py-4">Новая статья</p>
+                                <p className="h4 text-center py-4">Новая статья:</p>
                                 <div className="grey-text">
                                     <MDBInput
                                         label="Название статьи"
@@ -56,7 +56,10 @@ export const ArticlesCreator = () => {
                                                 alignleft aligncenter alignright alignjustify | \
                                                 bullist numlist outdent indent | removeformat | help'
                                         }}
-                                        onChange={e => setText(e.target.getContent())}
+                                        onChange={e => {
+                                            setText(e.target.getContent());
+                                            console.log(e.target)
+                                        }}
                                     />
                                     <Select
                                         onChange={e => setCategory(e.value)}

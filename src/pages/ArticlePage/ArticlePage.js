@@ -19,7 +19,7 @@ export const ArticlePage = props => {
                         <MDBCard reverse>
                             <MDBView hover cascade waves>
                                 <img
-                                    src="https://picsum.photos/1000/500"
+                                    src="https://picsum.photos/2000/1000"
                                     alt=""
                                     className="img-fluid"
                                 />

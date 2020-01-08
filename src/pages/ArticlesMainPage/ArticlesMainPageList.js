@@ -1,13 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import {articles, articlesGenerate, deleteArticle, saveArticlesStorage} from "../../modules/ArticlesMethods";
+import {articles, deleteArticle} from "../../modules/ArticlesMethods";
 import {ArticlesMainPageListItem} from "./ArticlesMainPageListItem";
 
 export const ArticlesMainPageList = () => {
     const [articlesStorage, setArticlesStorage] = useState(articles);
     const deleteArticleHandler = id => {
-        deleteArticle(id)
-        setArticlesStorage(articlesGenerate());
-        console.log(`Удалена статья с id ${id}`)
+        deleteArticle(id);
+        setArticlesStorage(articles);
     };
     return (
         articlesStorage.length ?
