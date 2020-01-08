@@ -17,20 +17,12 @@ export const ArticlePage = props => {
                 <MDBRow>
                     <MDBCol md="12">
                         <MDBCard reverse>
-                            <MDBView hover cascade waves>
-                                <img
-                                    src="https://picsum.photos/2000/1000"
-                                    alt=""
-                                    className="img-fluid"
-                                />
-                                <MDBMask overlay="white-slight" className="waves-light" />
-                            </MDBView>
                             <MDBCardBody cascade className="text-center">
                                 <h2 className="font-weight-bold">
                                     {article.title}
                                 </h2>
                                 <p>
-                                    <a href="#!">
+                                    <a href="#">
                                         <strong>{article.author}</strong>
                                     </a>
                                     , {article.date}
@@ -45,9 +37,7 @@ export const ArticlePage = props => {
                                 </MDBBtn>
                             </MDBCardBody>
                         </MDBCard>
-                        <MDBContainer className="mt-5">
-                            {article.text}
-                        </MDBContainer>
+                        <MDBContainer className="mt-5" dangerouslySetInnerHTML={{__html:article.text}} />
                     </MDBCol>
                 </MDBRow>
             </MDBCardBody>

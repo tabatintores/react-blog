@@ -1,10 +1,11 @@
 import React from 'react';
 import './style.sass';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import {ArticlesMainPage} from "./pages/ArticlesMainPage/ArticlesMainPage";
-import {ArticlesCreator} from "./pages/ArticlesCreator/ArticlesCreator";
+import {ArticlesMainPage} from "./components/ArticlesMainPage/ArticlesMainPage";
+import {ArticlesCreator} from "./components/ArticlesCreator/ArticlesCreator";
 import {ArticlesNavbar} from "./components/ArticlesNavbar";
-import {ArticlePage} from "./pages/ArticlePage/ArticlePage";
+import {ArticlePage} from "./components/ArticlePage/ArticlePage";
+import {ArticlesModal} from "./components/ArticlesModal";
 
 const App = () => {
   return (
