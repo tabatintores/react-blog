@@ -1,5 +1,6 @@
 import React from 'react';
 import {MDBRow, MDBCol, MDBView, MDBIcon, MDBBtn, MDBNavLink} from "mdbreact";
+import {toast} from "react-toastify";
 
 export const ArticlesMainPageListItem = props => {
     const {id, title, author, text, date, category, comments} = props;
@@ -53,7 +54,9 @@ export const ArticlesMainPageListItem = props => {
                         title='Удалить'
                         onClick={() => {
                             props.onDelete(id);
-                            props.toastHandler('Статья удалена!');
+                            toast.success('Статья удалена!', {
+                                pauseOnHover: false
+                            });
                         }}
                     />
                     <MDBIcon

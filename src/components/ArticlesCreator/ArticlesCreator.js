@@ -4,6 +4,7 @@ import {Editor} from '@tinymce/tinymce-react';
 import Select from 'react-select';
 import { useHistory } from "react-router-dom";
 import {createArticle} from "../../modules/ArticlesMethods";
+import {toast} from "react-toastify";
 
 export const ArticlesCreator = () => {
     const options = [
@@ -29,6 +30,9 @@ export const ArticlesCreator = () => {
                                 e.preventDefault();
                                 createArticle(title,text,category);
                                 history.push('/');
+                                toast.info('Статья создана!', {
+                                    pauseOnHover: false
+                                });
                             }}>
                                 <p className="h4 text-center py-4">Новая статья:</p>
                                 <div className="grey-text">

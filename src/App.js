@@ -5,7 +5,9 @@ import {ArticlesMainPage} from "./components/ArticlesMainPage/ArticlesMainPage";
 import {ArticlesCreator} from "./components/ArticlesCreator/ArticlesCreator";
 import {ArticlesNavbar} from "./components/ArticlesNavbar";
 import {ArticlePage} from "./components/ArticlePage/ArticlePage";
-import {ArticlesModal} from "./components/ArticlesModal";
+import {ToastContainer} from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import {Sugar} from 'react-preloaders';
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
                   <Route path='/article/:id' component={ArticlePage} />
               </Switch>
           </div>
+          <ToastContainer/>
+          <Sugar/>
       </BrowserRouter>
   );
 };

@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f3ba270-7c14-44fb-8657-9c1418b06154" name="Default Changelist" comment="Разработка приложения">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPage.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPageList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ArticlesModal.js" afterDir="false" />
+    <list default="true" id="9f3ba270-7c14-44fb-8657-9c1418b06154" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlePage/ArticlePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePage/ArticlePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesCreator/ArticlesCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesCreator/ArticlesCreator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPageList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ArticlesMainPage/ArticlesMainPageListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPageListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlesCreator/ArticlesCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesCreator/ArticlesCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPageListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesMainPage/ArticlesMainPageListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ArticlesNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlesNavbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +114,8 @@
       <workItem from="1578384223273" duration="1425000" />
       <workItem from="1578428923042" duration="62000" />
       <workItem from="1578475946318" duration="65000" />
+      <workItem from="1578505313493" duration="937000" />
+      <workItem from="1578563556052" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="Разметка приложения">
       <created>1577789232526</created>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578311566133</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Разработка приложения">
+      <created>1578500843362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578500843362</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +184,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -189,11 +195,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Разметка приложения" />
     <MESSAGE value="Создание архитектуры приложения" />
-    <MESSAGE value="Разработка приложения" />
     <MESSAGE value="Доделал создание статей" />
     <MESSAGE value="Добавил удаление статей" />
     <MESSAGE value="Пофиксил удаление статей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пофиксил удаление статей" />
+    <MESSAGE value="Разработка приложения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Разработка приложения" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Deployment" timestamp="1577782542529">
@@ -212,24 +218,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1577785118373" />
-    <state x="132" y="0" key="CommitChangelistDialog2" timestamp="1578492687784">
+    <state x="132" y="0" key="CommitChangelistDialog2" timestamp="1578570501030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="99" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1578311565895" />
-    <state x="132" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578492687784" />
+    <state x="132" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578570501030" />
+    <state x="132" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578500842411" />
     <state x="306" y="229" key="EditFileWatcherDialog" timestamp="1577778089837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="306" y="229" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1577778089837" />
+    <state width="1876" height="72" key="GridCell.Tab.0.bottom" timestamp="1578568197752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578568197752" />
+    <state width="1876" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578501724834" />
+    <state width="1876" height="72" key="GridCell.Tab.0.center" timestamp="1578568197752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="72" key="GridCell.Tab.0.center/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578568197752" />
+    <state width="1876" height="72" key="GridCell.Tab.0.center/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578501724834" />
+    <state width="1876" height="72" key="GridCell.Tab.0.left" timestamp="1578568197752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="72" key="GridCell.Tab.0.left/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578568197752" />
+    <state width="1876" height="72" key="GridCell.Tab.0.left/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578501724833" />
+    <state width="1876" height="72" key="GridCell.Tab.0.right" timestamp="1578568197752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="72" key="GridCell.Tab.0.right/0.0.1920.1040/1920.1.1920.1040@0.0.1920.1040" timestamp="1578568197752" />
+    <state width="1876" height="72" key="GridCell.Tab.0.right/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578501724834" />
     <state x="305" y="103" key="SettingsEditor" timestamp="1578495685593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577823086416" />
     <state x="305" y="103" key="SettingsEditor/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578495685593" />
-    <state x="320" y="186" key="Vcs.Push.Dialog.v2" timestamp="1578311567885">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="427" y="215" key="Vcs.Push.Dialog.v2" timestamp="1578500943565">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="320" y="186" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1578311567885" />
+    <state x="427" y="215" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.1.1920.1080@0.0.1920.1040" timestamp="1578500943565" />
     <state x="715" y="365" key="cloudConfig.SelfSettingsDialog" timestamp="1578495137788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
