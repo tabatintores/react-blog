@@ -3,8 +3,9 @@ import {MDBRow, MDBCol, MDBView, MDBIcon, MDBBtn, MDBNavLink} from "mdbreact";
 import {toast} from "react-toastify";
 
 export const ArticlesMainPageListItem = props => {
-    const {id, title, author, text, date, category, comments} = props;
-    const randomPhoto = `https://picsum.photos/1000/600?random=${id}`;
+    // eslint-disable-next-line react/prop-types
+    const {id,title,author,text,date,category,comments} = props;
+    const randomPhoto = `https://picsum.photos/1000/600?random=${id}`
 
     return (
         <>

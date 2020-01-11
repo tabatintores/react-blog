@@ -5,6 +5,7 @@ import Select from 'react-select';
 import { useHistory } from "react-router-dom";
 import {createArticle} from "../../modules/ArticlesMethods";
 import {toast} from "react-toastify";
+import {Articles} from "../../modules/ArticlesMethods";
 
 export const ArticlesCreator = () => {
     const options = [
@@ -19,6 +20,16 @@ export const ArticlesCreator = () => {
     const [text, setText] = useState('');
     const [category, setCategory] = useState();
 
+    const articleData = {
+        title,
+        text,
+        category,
+        author: 'user',
+        date: new Date().toLocaleDateString(),
+        comments: '[]'
+    };
+
+
     const history= useHistory();
     return (
         <MDBContainer>
@@ -28,7 +39,7 @@ export const ArticlesCreator = () => {
                         <MDBCardBody>
                             <form onSubmit={e => {
                                 e.preventDefault();
-                                createArticle(title,text,category);
+                                Articles.create(articleData);
                                 history.push('/');
                                 toast.info('Статья создана!', {
                                     pauseOnHover: false
@@ -44,6 +55,7 @@ export const ArticlesCreator = () => {
                                         error="wrong"
                                         success="right"
                                         onChange={e => setTitle(e.target.value)}
+                                        required
                                     />
                                     <Editor
                                         initialValue=""
@@ -62,7 +74,6 @@ export const ArticlesCreator = () => {
                                         }}
                                         onChange={e => {
                                             setText(e.target.getContent());
-                                            console.log(e.target)
                                         }}
                                     />
                                     <Select
