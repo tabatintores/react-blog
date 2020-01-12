@@ -11,7 +11,7 @@ export class Articles {
         .then(response => response.json())
         .then(response => {
             article.id = response.name;
-            console.log(article)
+            console.log(article);
             return article
         })
         .then(addToLocalStorage)
@@ -28,7 +28,8 @@ export const articlesGenerate = () => JSON.parse(localStorage.getItem('articlesS
 
 export let articles = articlesGenerate();
 
-export const createArticle = (title, text, category) => {
+export const createArticle = articleObj => {
+    const {title,text,category} = articleObj;
     const article = {
         id: getArticleId(),
         title,

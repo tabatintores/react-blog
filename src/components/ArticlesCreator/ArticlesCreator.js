@@ -5,7 +5,6 @@ import Select from 'react-select';
 import { useHistory } from "react-router-dom";
 import {createArticle} from "../../modules/ArticlesMethods";
 import {toast} from "react-toastify";
-import {Articles} from "../../modules/ArticlesMethods";
 
 export const ArticlesCreator = () => {
     const options = [
@@ -23,10 +22,7 @@ export const ArticlesCreator = () => {
     const articleData = {
         title,
         text,
-        category,
-        author: 'user',
-        date: new Date().toLocaleDateString(),
-        comments: '[]'
+        category
     };
 
 
@@ -39,7 +35,8 @@ export const ArticlesCreator = () => {
                         <MDBCardBody>
                             <form onSubmit={e => {
                                 e.preventDefault();
-                                Articles.create(articleData);
+                                // Articles.create(articleData);
+                                createArticle(articleData);
                                 history.push('/');
                                 toast.info('Статья создана!', {
                                     pauseOnHover: false
